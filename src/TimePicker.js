@@ -14,7 +14,7 @@ const styles = (theme) => ({
   },
   header: {
     background: theme.palette.primary[500],
-    color: getContrastRatio(theme.palette.primary[500], theme.palette.common.fullBlack) < 7 ? theme.palette.common.fullWhite : theme.palette.common.fullBlack,
+    color: getContrastRatio(theme.palette.main, theme.palette.common.fullBlack) < 7 ? theme.palette.common.fullWhite : theme.palette.common.fullBlack,
     padding: '20px 0',
     lineHeight: '58px',
     fontSize: '58px',
